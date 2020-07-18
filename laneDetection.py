@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 import matplotlib.pylab as plt
-cap=cv2.VideoCapture("C:/Users/Mr.Maloo/Downloads/test2.mp4")
+cap=cv2.VideoCapture("test2.mp4")
 while cap.isOpened():
    ret,image=cap.read()
    image=cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
